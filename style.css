@@ -1,6 +1,9 @@
 *{
     font-family: 'Nova Square', Rajdhani;
 }
+body{
+    background-color: #ececec;
+}
 .bgGrigio{
     background-color: #cecece !important;
 }
@@ -9,11 +12,12 @@ li>a{
     color: gray !important;
 }
 .backgroundSlide{
+    background-position-y: center;
+    background-position-x: center;
     background-image: url(./media/switzerland-862870_1920.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height:100vh;
-    
+    background-size:auto;
+    height:84vh;    
 }
 /* .bgsfumato{
     background: url(./media/mountains.png), url(./media/switzerland-862870_1920.jpg);
@@ -24,15 +28,15 @@ li>a{
 .bgsfumato{
    
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 20%, rgba(255,0,0,0) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 5%, rgba(255,0,0,0) 100%);
     z-index: 1;
     height: 80vh;
 }
 .montagnaSlide{
-    top: 130px;
+    top: 34px;
     position: absolute;
     display: flex;
-    height: 83vh;
+    height: 80vh;
     
 }
 h1{
@@ -41,6 +45,45 @@ h1{
     z-index: 2;
     letter-spacing: 20px 
 }
-.prova{
+.citazione{
+    height: 500px;
+}
+.darkred{
+    color: darkred;
+    font-size: 40px;
+    letter-spacing: 1px 
+
+}
+.box{
+    text-align: center;
     height: 300px;
+}
+.darkredhr{
+    border-color: darkred !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.destra{
+    text-align: right;
+}
+.button-box{
+    position: relative;
+height: 500px;
+background-image: url(./media/trees2.png);
+background-size: contain;
+background-position-x: center;
+background-position-y: bottom;
+background-repeat: no-repeat;
+margin-bottom: -50px;
+}
+button{
+    border: none;
+    background-color: darkred;
+    color: white;
+    padding: 10px 30px;
+    position: relative;
+    left: 120px;
+    font-size: 20px;
+
 }
