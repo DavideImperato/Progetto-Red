@@ -2,6 +2,8 @@
     font-family: 'Nova Square', Rajdhani;
 }
 body{
+    padding: 0;
+    margin: 0;
     background-color: #ececec;
 }
 .bgGrigio{
@@ -30,13 +32,13 @@ li>a{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 5%, rgba(255,0,0,0) 100%);
     z-index: 1;
-    height: 80vh;
+    height: 75vh;
 }
 .montagnaSlide{
-    top: 34px;
+    top: 170px;
     position: absolute;
-    display: flex;
-    height: 80vh;
+    
+    height: 100vh;
     
 }
 h1{
@@ -68,14 +70,14 @@ h1{
     text-align: right;
 }
 .button-box{
-    position: relative;
-height: 500px;
-background-image: url(./media/trees2.png);
-background-size: contain;
-background-position-x: center;
-background-position-y: bottom;
-background-repeat: no-repeat;
-margin-bottom: -50px;
+    text-align: center;
+    height: 500px;
+    background-image: url(./media/trees2.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
 }
 button{
     border: none;
@@ -83,7 +85,36 @@ button{
     color: white;
     padding: 10px 30px;
     position: relative;
-    left: 120px;
+    left: 0px;
     font-size: 20px;
 
+}
+
+/* prova */
+.li-timeline{
+    list-style-type:none;
+    list-style-position: inherit;
+    list-style-type: style size;
+}
+.li-item-timeline{
+    left: -12px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 3px solid darkred;
+    border-radius: 50%;
+    z-index: 2;
+}
+.border-list{
+    position: absolute;
+    border-left: 4px solid gray;
+    height: 150px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+    
+}
+.ul-timeline{
+    border-left: 3px solid darkred;
+    margin-left: -5px;
 }
