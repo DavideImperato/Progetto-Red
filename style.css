@@ -1,0 +1,46 @@
+*{
+    font-family: 'Nova Square', Rajdhani;
+}
+.bgGrigio{
+    background-color: #cecece !important;
+}
+li>a{
+    text-decoration: none !important;
+    color: gray !important;
+}
+.backgroundSlide{
+    background-image: url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:100vh;
+    
+}
+/* .bgsfumato{
+    background: url(./media/mountains.png), url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+    height: 100vh;
+} */
+.bgsfumato{
+   
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 20%, rgba(255,0,0,0) 100%);
+    z-index: 1;
+    height: 80vh;
+}
+.montagnaSlide{
+    top: 130px;
+    position: absolute;
+    display: flex;
+    height: 83vh;
+    
+}
+h1{
+    font-size: 60px;
+    color:darkred !important;
+    z-index: 2;
+    letter-spacing: 20px 
+}
+.prova{
+    height: 300px;
+}
