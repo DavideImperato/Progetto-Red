@@ -56,6 +56,18 @@ h1{
     letter-spacing: 1px 
 
 }
+.darkredTextTeam{
+    color: darkred;
+    font-size: 19px;
+    letter-spacing: 1px 
+
+}
+.darkredicon{
+    color: darkred;
+    font-size: 19px;
+    letter-spacing: 10px 
+
+}
 .box{
     text-align: center;
     height: 300px;
@@ -117,4 +129,44 @@ button{
 .ul-timeline{
     border-left: 3px solid darkred;
     margin-left: -5px;
+}
+.imgteam{
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    border: 3px solid darkred;
+    border-radius: 50%;
+}
+.imgteam>img{
+    margin-top: 8px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+.imageBenefit{
+
+    height: 200px;
+    width: 200px;
+    padding: 0px;
+    border: 3px solid darkred;
+    border-radius: 50%;
+}
+.imageBenefit>img{
+    margin-top: 5px;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+}
+.prefooter-box{
+    text-align: center;
+    height: 500px;
+    background-image: url(./media/other.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    margin-bottom:0px;
+}
+.bgdarkred{
+    background-color: darkred;
 }
