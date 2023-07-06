@@ -83,6 +83,7 @@ h1{
 }
 .button-box{
     text-align: center;
+    width: 100%;
     height: 500px;
     background-image: url(./media/trees2.png);
     background-size: contain;
@@ -159,6 +160,7 @@ button{
 }
 .prefooter-box{
     text-align: center;
+    width: 100%;
     height: 500px;
     background-image: url(./media/other.png);
     background-size: contain;
@@ -170,3 +172,27 @@ button{
 .bgdarkred{
     background-color: darkred;
 }
+
+
+
+
+
+
+
+/* mediaqueries */
+
+@media only screen and (max-width: 600px) {
+    .prefooter-box {
+        height: 200px;
+        margin: 0;
+    }
+    .button-box {
+        height: 200px;
+        margin: 0px 0px -50px 0px;
+    }
+    .bgsfumato,.backgroundSlide{
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+    }
+  }
