@@ -18,7 +18,7 @@ li>a{
     background-position-x: center;
     background-image: url(./media/switzerland-862870_1920.jpg);
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size:cover;
     height:84vh;    
 }
 /* .bgsfumato{
@@ -183,7 +183,15 @@ button{
     border-radius: 50%;
     z-index: 2;
 }
-
+li>h3::after{
+    content: ("");
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    z-index: 10;
+}
 
 
 
